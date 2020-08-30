@@ -1,0 +1,18 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5f2d2551d15c7716740f8105
+
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "sifat",
+    "subscribedToChannel":"sex"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5f2d2551d15c7716740f8105
